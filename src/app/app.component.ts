@@ -12,4 +12,7 @@ import { PostsCommentsComponent } from './posts-comments/posts-comments.componen
 })
 export class AppComponent {
   title = 'my-app';
+
+  USER_ID!:number;
+
 }

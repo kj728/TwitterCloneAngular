@@ -9,7 +9,7 @@
 
 .wrapper {
     width: 100vw;
-    height: 500px;
+    min-height: 500px;
     background-color: #1c84e6;
     display: flex;
     justify-content: center;

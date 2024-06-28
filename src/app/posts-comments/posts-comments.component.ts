@@ -18,7 +18,8 @@ export class PostsCommentsComponent implements OnInit {
 
   ngOnInit() {
     this.postsService.getAllPosts().subscribe(posts => {
-      // console.log(posts)
+     
+      this.allPosts = posts;
 
     })
   }

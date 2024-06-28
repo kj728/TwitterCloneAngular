@@ -2,15 +2,13 @@
     <div class="content">
 
         <div class="posts">
-            <div class="post-card">
+            <div class="post-card" *ngFor="let post of allPosts; let i =index">
                 <img src="https://images.unsplash.com/photo-1541647249291-71c1d98ce84f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YSUyMGxhZHl8ZW58MHwxfDB8fHwy" alt="" srcset="">
 
                 <div class="card-content">
-                    <h4>Patricia Lebsack</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quibusdam necessitatibus error aspernatur sint voluptate! Laudantium veritatis veniam nesciunt quam natus quasi tempore nostrum quas. Adipisci illo accusamus recusandae cupiditate.</p>
-        
+                    <h4>{{post.title}}</h4>
+                    <p>{{post.body}}</p>
                 </div>
-               
             </div>
         </div>
 
