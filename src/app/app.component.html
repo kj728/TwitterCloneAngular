@@ -1,7 +1,7 @@
-<app-profile>
+<app-profile (onClick)="passTheId($event)">
 
 </app-profile>
 
-<app-posts-comments>
-  
+<app-posts-comments [user_id]="passedUserId">
+
 </app-posts-comments>

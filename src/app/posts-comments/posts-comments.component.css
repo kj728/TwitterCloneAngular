@@ -10,7 +10,7 @@
 .wrapper {
     width: 100vw;
     min-height: 500px;
-    background-color: #1c84e6;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
 .content{
     width: 80%;
     height: 100%;
-    background-color: #cf09e9;
+    background-color: #cf09e900;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -36,7 +36,7 @@
     justify-content: start;
     align-items: center;
     flex-direction: column;
-    background-color: #09e95f;
+    background-color: #09e95f00;
 }
 .post-card{
     width: 95%;
@@ -68,7 +68,7 @@
     justify-content: start;
     align-items: center;
     flex-direction: column;
-    background-color: #e9e509;
+    background-color: #e9e50900;
 }
 
 .comments-card{

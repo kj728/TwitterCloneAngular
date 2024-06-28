@@ -13,6 +13,17 @@ import { PostsCommentsComponent } from './posts-comments/posts-comments.componen
 export class AppComponent {
   title = 'my-app';
 
-  USER_ID!:number;
+   passedUserId!:number;
+
+
+
+  constructor(){}
+  passTheId(eventData:{userID: number}){
+   // console.log("Received the id", eventData.userID);
+   this.passedUserId = eventData.userID;
+
+   
+
+  }
 
 }
